@@ -23,7 +23,7 @@ RegisterNumber:  212223240167
 */
 
 import pandas as pd
-df = pd.read_csv("/content/Placement_Data.csv")
+df = pd.read_csv("Placement_Data.csv")
 print(df.head())
 df1 = df.copy()
 df1 = df1.drop(['sl_no', 'salary'], axis = 1)
@@ -81,10 +81,9 @@ print(lr.predict([[1, 80, 1, 90, 1, 1, 90, 1, 0, 85, 1, 85]]))
 ```
 
 ## Output:
+![Screenshot 2024-09-26 134139](https://github.com/user-attachments/assets/fa457c81-c344-4b1c-8209-8cbe9a009400)
 
-![Screenshot 2024-09-19 114025](https://github.com/user-attachments/assets/caa8c2fe-d023-4264-98c6-10fb8ce4a7c3)
-
-![Screenshot 2024-09-19 114038](https://github.com/user-attachments/assets/6a9bc73d-e22b-4364-ad13-bf0c779a3ec8)
+![Screenshot 2024-09-26 134158](https://github.com/user-attachments/assets/2c4b2f1d-54c3-47e0-93f5-ae8151323d8e)
 
 
 
